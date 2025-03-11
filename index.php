@@ -6,6 +6,6 @@
     <title>Autenticação</title>
 </head>
 <body>
-    <h1>Página de autenticação</h1>
+    <h1>Seja Bem-vindo!</h1>
 </body>
 </html>
