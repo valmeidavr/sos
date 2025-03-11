@@ -1,0 +1,58 @@
+/* Resetar configuração CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: rgb(111, 163, 253);
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(50, 97, 110);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    color: white;
+}
+
+.container-login form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-login form input {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: none;
+    border-radius: 5px; 
+}
+
+.container-login form button {
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
