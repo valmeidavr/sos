@@ -11,7 +11,7 @@ $dotenv->load();
 $host = $_ENV['DB_HOST'];
 $dbname = $_ENV['DB_NAME'];
 $username = $_ENV['DB_USER'];
-$password = "senha123";
+$password = $_ENV['DB_PASS'];
 
 try {
     $pdo = new PDO(
